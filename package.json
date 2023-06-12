@@ -35,7 +35,7 @@
     "@digitalroute/email-verify": "^0.3.2",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "marked": "^5.0.5",
+    "marked": "^5.1.0",
     "probot": "^12.3.0"
   },
   "devDependencies": {
@@ -45,7 +45,7 @@
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "rewire": "^6.0.0",
-    "sinon": "^15.1.0",
+    "sinon": "^15.1.2",
     "sinon-chai": "^3.7.0"
   },
   "engines": {
