@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install node 18
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: npm
@@ -35,7 +35,7 @@ jobs:
 
       - name: Report tests results
         if: always()
-        uses: dorny/test-reporter@v1.6.0
+        uses: dorny/test-reporter@v1.7.0
         with:
           name: Unit Tests Run
           path: unit-tests-result.json
