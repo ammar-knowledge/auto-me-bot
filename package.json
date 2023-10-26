@@ -29,9 +29,9 @@
     "tests:rep": "mocha --check-leaks --fail-zero --ui tdd --recursive --reporter json ./tests/ > unit-tests-result.json"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^18.0.0",
-    "@commitlint/lint": "^18.0.0",
-    "@commitlint/load": "^18.0.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@commitlint/lint": "^18.1.0",
+    "@commitlint/load": "^18.1.0",
     "@digitalroute/email-verify": "^0.3.2",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
