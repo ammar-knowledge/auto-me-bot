@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  checks: write
+  actions: read
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -36,6 +39,9 @@ jobs:
       - name: Report tests results
         if: always()
         uses: dorny/test-reporter@v1.7.0
+        permissions:
+          checks: write
+          actions: read
         with:
           name: Unit Tests Run
           path: unit-tests-result.json
