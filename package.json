@@ -29,18 +29,18 @@
     "tests:rep": "mocha --check-leaks --fail-zero --ui tdd --recursive --reporter json ./tests/ > unit-tests-result.json"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^18.1.0",
-    "@commitlint/lint": "^18.1.0",
-    "@commitlint/load": "^18.2.0",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/lint": "^18.4.3",
+    "@commitlint/load": "^18.4.3",
     "@digitalroute/email-verify": "^0.3.2",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "marked": "^9.1.5",
-    "probot": "^12.3.1"
+    "marked": "^11.1.1",
+    "probot": "^12.3.3"
   },
   "devDependencies": {
     "chai": "^4.3.10",
-    "eslint": "^8.52.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-editorconfig": "^4.0.3",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
